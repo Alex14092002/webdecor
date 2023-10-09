@@ -270,6 +270,9 @@ img, video {
   display: block !important;
   width: max-content !important;
 }
+.psv-panel .psv--capture-event{
+  display: none !important;
+}
 .psv-canvas{
   height: max-content  !important;
 }
@@ -283,10 +286,7 @@ img, video {
 .psv-notification{
   display: none;
 }
-#viewer {
-  height: 600px; /* Hoặc kích thước cố định khác */
-  flex: 0 0 auto !important; /* Cố định kích thước không thay đổi cho phần tử "viewer" */
-}
+
  
 @media only screen and (max-width: 992px) {
   .submenu {
