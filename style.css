@@ -242,7 +242,52 @@ img, video {
   outline: none;
   color: #2B9D9E;
 }
-
+.psv-button.psv-button--hover-scale.psv-download-button {
+  position: absolute; /* Đặt phần tử ở chế độ tuyệt đối */
+  bottom: -80%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  z-index: 9999; /* Đảm bảo phần tử này nằm trên các phần tử khác nếu cần */
+}
+.item-img-360{
+  position: relative;
+  
+}
+.psv-navbar{
+  background: none;
+}
+.psv-button-svg{
+  color: #007976 !important;
+}
+/* #viewer{
+  overflow:auto !important;
+ 
+} */
+.psv-button span{
+ 
+  color: #007976;
+  display: block !important;
+  width: max-content !important;
+}
+.psv-canvas{
+  height: max-content  !important;
+}
+.psv-button{
+  padding: 0;
+  width: auto;
+}
+.psv-container , .psv-canvas-container{
+  position:inherit !important;
+}
+.psv-notification{
+  display: none;
+}
+#viewer {
+  height: 600px; /* Hoặc kích thước cố định khác */
+  flex: 0 0 auto !important; /* Cố định kích thước không thay đổi cho phần tử "viewer" */
+}
+ 
 @media only screen and (max-width: 992px) {
   .submenu {
     position: relative;
@@ -731,10 +776,9 @@ table tr td{
   display: none;
 }
 
-.psv-navbar {
-  display: none;
+.psv-button-svg{
+  color: #000;
 }
-
 @media(max-width : 768px){
   .box-content-chitiet-sp{
     position: relative;
@@ -747,7 +791,7 @@ table tr td{
     font-size: 8px;
   }
   .banner-home{
-    margin-top: 18%;
+    margin-top: 13%;
   }
   .item-footer{
     padding: 12px;
