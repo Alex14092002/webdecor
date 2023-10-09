@@ -14,7 +14,7 @@ header.innerHTML += `
    <span class="overlay"></span>
    <nav class="navbar" id="navbar">
       <ul class="menu" id="menu">
-         <li class="menu-item"><a href="../gioỉthieu.html" class="menu-link">Giới thiệu</a></li>
+         <li class="menu-item"><a href="../gioithieu.html" class="menu-link">Giới thiệu</a></li>
          <li class="menu-item menu-dropdown">
             <span class="menu-link" data-toggle="submenu">Sản phẩm<i class="bx bx-chevron-down"></i></span>
             <ul class="submenu">

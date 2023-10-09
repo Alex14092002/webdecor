@@ -399,12 +399,32 @@ img, video {
   padding-right: 15px;
   border-right :#000 solid 1px;
 }
+.banner-home{
+  position: relative;
+}
+.btn-khampha{
+  position: absolute;
+  bottom:2%;
+  transform: translateX(-50%);
+  left: 50%;
+}
+.btn-khampha button{
+  display: flex;
+  font-size: 14px;
+  padding:5px 20px;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #22AB98  , #007976);
+}
 .title-home{
+  position: absolute;
+  bottom: 3%;
+  transform: translateX(-50%);
+  left: 50%;
   line-height: 45px;
   text-align: center;
   margin: 20px 0;
   padding: 20px 0;
-  background: url('./img/Group\ 3.png');
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -419,21 +439,10 @@ img, video {
   color: #fff;
   text-shadow: 1px 5px 2px rgba(0, 0, 0, 0.5);
 }
-.btn-khampha {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 20px;
-}
-.btn-khampha button{
-  display: flex;
-  padding: 10px 30px;
-  justify-content: center;
-  align-self: center;
-  background: linear-gradient(to right, #22AB98  , #007976);
-}
+
+
 .banner-home{
-  margin-top: 5%;
+  margin-top: 3%;
 }
 .section2{
   background: linear-gradient(to right, #22AB98  , #007976);
@@ -656,6 +665,9 @@ img, video {
   align-items: center;
   background: linear-gradient(to right,#2A7E78 , #34928C ,#089A95 ,#007976);
 }
+.active-tinh-nang{
+  background: linear-gradient(to right,#2A7E78 , #34928C ,#089A95   );
+}
 .btn-bam-de-xem:hover{
   color: #fff;
 }
@@ -697,10 +709,36 @@ table tr td{
 .item-khanang{
   padding: 0px 30px;
 }
+.content-tintuc p{
+  font-size: 14px;
+}
+.box-content-chitiet-sp{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.box-dichvu-phone2{
+ 
+  background: inherit !important;
+}
+.box-dichvu-phone2 h5{
+  padding: 0px 10px;
+  color: #ff0000 !important;
+  
+}
+.psv-zoom-button ,.psv-move-button , .psv-fullscreen-button{
+  display: none;
+}
 
-
+.psv-navbar {
+  display: none;
+}
 
 @media(max-width : 768px){
+  .box-content-chitiet-sp{
+    position: relative;
+  }
   .item-khanang{
     padding: 12px;
   }
@@ -765,5 +803,10 @@ table tr td{
   }
   .item-tinhnang{
     padding: 30px 10px ;
+  }
+  .title-home h2 , .title-home h3{
+    font-size: 20px;
+    padding: 0px 12px;
+    line-height: 30px;
   }
 }
