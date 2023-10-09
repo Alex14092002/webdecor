@@ -260,10 +260,10 @@ img, video {
 .psv-button-svg{
   color: #007976 !important;
 }
-/* #viewer{
+#viewer{
   overflow:auto !important;
  
-} */
+}
 .psv-button span{
  
   color: #007976;
