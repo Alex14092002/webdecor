@@ -817,6 +817,9 @@ swiper-slide img {
 .swiper-button-next{
       position: relative !important;
 }
+swiper-slide{
+  display: block !important;
+}
 @media(max-width : 768px){
   #panorama{
     height: 500px;
