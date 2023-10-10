@@ -954,6 +954,66 @@ input[type="file"] {
 .name-du-an{
   color: #007976;
 }
+.title-tintuc{
+  border-bottom: 2px solid #8D653B;
+}
+.name-post  {
+  padding-right: 50px;
+  border-right: 1px solid #000;
+}
+.date-post{
+  padding-left: 50px;
+}
+.item-key{
+  padding: 10px 0px;
+  border-bottom: 1px solid #8D653B;
+}
+.map{
+  border: 1px solid #8D653B;
+}
+.address{
+  font-size: 12px;
+}
+.btn-ungtuyen{
+  background: linear-gradient(to right, #2B7C76 , #358E88 , #05180E   );
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 10px;
+}
+.btn-ungtuyen-special{
+  background: linear-gradient(to right, #DBC192, #CBAE80,#B08E62 ,#B08E62 ,#B08E62 ,#8D653B  );
+}
+.main-ung-tuyen{
+  display: flex;
+  justify-content: center;
+  
+}
+.form-ung-tuyen{
+  margin: 0 auto;
+  width: 70%;
+  padding: 30px;
+  border : #8D653B 1px solid;
+}
+.title-nop-don{
+  font-size: 20px;
+  color: #007976;
+}
+.input-ung-tuyen{
+  border: #007976 1px solid;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.input-ung-tuyen:focus{
+  outline: none;
+}
+.submit-ung-tuyen{
+  width: 100%;
+  padding: 20px 0px;
+  background-color: #089A95;
+  color: #fff;
+}
 @media(max-width : 768px){
   .form-du-an{
 

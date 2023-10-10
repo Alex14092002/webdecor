@@ -32,15 +32,15 @@ header.innerHTML += `
 </li>
 
 
-                  <li class="submenu-item-2"><a href="#" class="submenu-link-2">Submenu Link 2</a></li>
-                  <li class="submenu-item-2"><a href="#" class="submenu-link-2">Submenu Link 3</a></li>
+                  <li class="submenu-item-2"><a href="#" class="submenu-link-2">Thang máy chở khách cao cấp</a></li>
+                  <li class="submenu-item-2"><a href="#" class="submenu-link-2">Thang máy chở khách lựa chọn</a></li>
                </ul>
                </li>
               
-               <li class="submenu-item"><a href="#" class="submenu-link">Feature Link</a></li>
-               <li class="submenu-item"><a href="#" class="submenu-link">Feature Link</a></li>
-               <li class="submenu-item"><a href="#" class="submenu-link">Feature Link</a></li>
-               <li class="submenu-item"><a href="#" class="submenu-link">Feature Link</a></li>
+               <li class="submenu-item"><a href="#" class="submenu-link">Thang máy bệnh viện</a></li>
+               <li class="submenu-item"><a href="#" class="submenu-link">Thang máy chở hàng</a></li>
+               <li class="submenu-item"><a href="#" class="submenu-link">Thang máy quan sát</a></li>
+              
                
 
              
@@ -50,16 +50,24 @@ header.innerHTML += `
          <li class="menu-item menu-dropdown">
             <span class="menu-link" data-toggle="submenu">Dịch vụ<i class="bx bx-chevron-down"></i></span>
             <ul class="submenu">
-               <li class="submenu-item"><a href="#" class="submenu-link">Discover Link</a></li>
-               <li class="submenu-item"><a href="#" class="submenu-link">Discover Link</a></li>
-               <li class="submenu-item"><a href="#" class="submenu-link">Discover Link</a></li>
-               <li class="submenu-item"><a href="#" class="submenu-link">Discover Link</a></li>
+               <li class="submenu-item"><a href="../dichvu.html" class="submenu-link">Thiết kế theo yêu cầu </a></li>
+               <li class="submenu-item"><a href="../dichvu.html" class="submenu-link">Bảo trì bảo dưỡng</a></li>
+               <li class="submenu-item"><a href="../dichvu.html" class="submenu-link">Kiểm định an toàn thang máy</a></li>
+               <li class="submenu-item"><a href="../dichvu.html" class="submenu-link">Decor thang máy</a></li>
             </ul>
          </li>
         
-         <li class="menu-item"><a href="#" class="menu-link">Dự án</a></li>
-         <li class="menu-item"><a href="#" class="menu-link">Tin tức</a></li>
-         <li class="menu-item"><a href="#" class="menu-link">Liên hệ</a></li>
+         <li class="menu-item"><a href="../duan.html" class="menu-link">Dự án</a></li>
+         <li class="menu-item"><a href="../tintuc.html" class="menu-link">Tin tức</a></li>
+         <li class="menu-item menu-dropdown">
+            <span class="menu-link" data-toggle="submenu">Liên hệ<i class="bx bx-chevron-down"></i></span>
+            <ul class="submenu">
+               <li class="submenu-item"><a href="../lienhe.html" class="submenu-link">Hỗ trợ khách hàng</a></li>
+               <li class="submenu-item"><a href="../lienhe.html" class="submenu-link">Hệ thống phân phối</a></li>
+               <li class="submenu-item"><a href="../lienhe.html" class="submenu-link">Tuyển dụng nhân sự</a></li>
+            </ul>
+         </li>
+        
          <li class="menu-item"><a href="#" class="menu-link menu-icon">
             <div class="icon-search">
                <img src='../img/search-icon.png' width='15px'/>
