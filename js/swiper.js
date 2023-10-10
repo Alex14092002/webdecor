@@ -8,15 +8,19 @@ Object.assign(swiperEl, {
   spaceBetween: 10,
  
   breakpoints: {
-    640: {
+    "@0.00": {
+      slidesPerView: 2,
+      spaceBetween: 10,
+    },
+    "@0.75": {
       slidesPerView: 2,
       spaceBetween: 20,
     },
-    768: {
+    "@1.00": {
       slidesPerView: 3,
       spaceBetween: 40,
     },
-    1024: {
+    "@1.50": {
       slidesPerView: 4,
       spaceBetween: 50,
     },
@@ -34,15 +38,19 @@ Object.assign(swiperEls, {
   spaceBetween: 10,
  
   breakpoints: {
-    640: {
+    "@0.00": {
+      slidesPerView: 2,
+      spaceBetween: 10,
+    },
+    "@0.75": {
       slidesPerView: 2,
       spaceBetween: 20,
     },
-    768: {
+    "@1.00": {
       slidesPerView: 3,
       spaceBetween: 40,
     },
-    1024: {
+    "@1.50": {
       slidesPerView: 4,
       spaceBetween: 50,
     },
@@ -58,19 +66,21 @@ swiperElss.initialize();
 
 Object.assign(swiperElss, {
   
-  slidesPerView: 2,
-  spaceBetween: 10,
- 
+  slidesPerView: 2, 
   breakpoints: {
-    640: {
+    "@0.00": {
+      slidesPerView: 2,
+      spaceBetween: 10,
+    },
+    "@0.75": {
       slidesPerView: 2,
       spaceBetween: 20,
     },
-    768: {
+    "@1.00": {
       slidesPerView: 3,
       spaceBetween: 40,
     },
-    1024: {
+    "@1.50": {
       slidesPerView: 4,
       spaceBetween: 50,
     },
