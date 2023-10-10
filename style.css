@@ -820,7 +820,176 @@ swiper-slide img {
 swiper-slide{
   display: block !important;
 }
+.form-info{
+  padding: 40px;
+  background: linear-gradient(to right, #DBC192, #CBAE80,#B08E62 ,#B08E62 ,#B08E62 ,#8D653B  );
+}
+.title-form{
+  top: -10%;
+  left: 50%;
+  padding: 20px 40px;
+  color: #fff;
+  border : solid 1px #8D653B;
+  transform :  translate(-50%);
+  background: linear-gradient(to right, #2B7C76 , #358E88 , #05180E   );
+}
+.main-input input{
+  border-radius: 10px;
+  padding-left: 20%;
+  width: 100%;
+  height: 40px;
+  border: none;
+
+}
+.main-input input:focus{
+  outline: none;
+}
+.icon-form{
+  position: absolute;
+  left: 10%;
+  top :18%;
+  
+}
+.text-note{
+  border: none;
+  width: 100%;
+  resize: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+.text-note:focus{
+  outline: none;
+
+
+}
+/* Ẩn nút duyệt mặc định */
+input[type="file"] {
+  display: none;
+}
+
+/* Tạo nút tùy chỉnh */
+.custom-file-upload {
+  
+  color: #fff;
+ 
+  cursor: pointer;
+}
+
+/* Khi người dùng nhấp vào nút tùy chỉnh, kích hoạt input[type="file"] */
+.custom-file-upload:hover + input[type="file"] {
+  display: block;
+}
+.btn-send{
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+  background: linear-gradient(to right, #2B7C76 , #358E88 , #05180E   );
+}
+.content-bao-tri {
+  display: flex;
+  justify-content: center;
+  
+  text-align: justify;
+}
+.content-bao-tri p{
+  width: 70%;
+}
+.img-bao-duong{
+  display: flex;
+  justify-content: center;
+}
+.item-bao-duong{
+  width: 70%;
+}
+.content-baotri p{
+  text-align: justify;
+}
+.item-bao-tri{
+  background-color: #358E88;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8); /* Box shadow */
+}
+.hotrongay{
+  display: flex;
+  padding-top: 20px;
+  justify-content: end;
+  
+}
+.form-du-an{
+  z-index: 900;
+  top: 5%;
+  right: 5%;
+  width: max-content;
+  padding: 20px 10px;
+  width: 500px;
+  background: linear-gradient(to bottom, #2B7C76 , #358E88 , #05180E   );
+}
+.main-form-du-an{
+  background-color: #58a7a2;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #8D653B;
+}
+.input-form-du-an{
+  height: 35px;
+  border: none;
+  width: 200px;
+  padding-left: 40px;
+  border-radius: 10px;
+}
+.input-form-du-an:focus{
+  outline: none;
+}
+.icon-form-du-an{
+  top:12%;
+  left: 10%;
+}
+.btn-gui-ngay{
+  background: linear-gradient(to right, #DBC192, #CBAE80,#B08E62 ,#B08E62 ,#B08E62 ,#8D653B  );
+  padding: 15px 40px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.name-du-an{
+  color: #007976;
+}
 @media(max-width : 768px){
+  .form-du-an{
+
+    right: 0;
+    width: 100%;
+    position: relative !important;
+  }
+  .input-form-du-an{
+    width: 100%;
+  }
+  .icon-form-du-an{
+    left: 6%;
+  }
+  .btn-gui-ngay{
+    padding: 10px 30px;
+  }
+  .hotrongay{
+    justify-content: center;
+  }
+  .content-bao-tri p , .item-bao-duong{
+
+    width: 100%;
+  }
+  .nvht{
+    text-align: center;
+  }
+  .form-info{
+    padding: 40px 10px 10px 10px;
+  }
+  .title-form{
+    top : -5%;
+    line-height: 20px;
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+  }
   #panorama{
     height: 500px;
   }
