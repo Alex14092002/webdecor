@@ -48,9 +48,9 @@ table {
 a{
   text-decoration: none !important
 }
-@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body{
-    font-family: 'Segoe UI', sans-serif !important;
+  font-family: 'Inter', sans-serif;
 }
 .test{
     background-image: linear-gradient(90deg, #2b7c76 0%, #358e88 0%, #219690 3%, #05180e 100%, #1a7774 100%);
@@ -111,6 +111,7 @@ img, video {
 }
 
 .header {
+  padding: 20px 0;
   position: fixed;
   top: 0;
   left: 0;
@@ -163,11 +164,11 @@ img, video {
   align-items: center;
   column-gap: 0.25rem;
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 18px;
   font-weight: 500;
   line-height: inherit;
   cursor: pointer;
-  text-transform: capitalize;
+ 
   color: var(--color-black-500);
   transition: all 0.3s ease-in-out;
 }
@@ -435,6 +436,7 @@ img, video {
 }
 .icon-internet p{
   padding-left: 10px;
+  font-size: 14px;
 }
 
 .icon-search{
@@ -449,7 +451,7 @@ img, video {
 }
 .btn-khampha{
   position: absolute;
-  bottom:2%;
+  bottom :1%;
   transform: translateX(-50%);
   left: 50%;
 }
@@ -490,47 +492,79 @@ img, video {
   margin-top: 3%;
 }
 .section2{
-  background: linear-gradient(to right, #22AB98  , #007976);
+  background: linear-gradient(to right, #2B7C76 , #358E88 , #05180E   );
 }
 .main-section2 h2{
   font-size: 60px;
+  opacity: 0.2;
 }
 .main-section2{
   padding-top:60px;
 }
+.name-opacity{
+  opacity: 0.2;
+}
 .content-section-info{
-  margin: 20px 0px;
+  margin: 50px 0px;
   background: linear-gradient(to left, #2A7E78  , #34928C , #089A95 , #007976);
 }
 .section-row{
   background-color: #121F16;
 }
-.bot-content{
-  background: linear-gradient(to right, #22AB98  , #007976);
-}
+
 .bot-content-2{
+  cursor: pointer;
   background: linear-gradient(to right, #DBC192  , #CBAE80 , #B08E62 , #9C774C , #91693F , #8D653B
   );
 }
-.section4{
+.bot-content-2:hover{
   background: linear-gradient(to right, #22AB98  , #007976);
+}
+.section4{
+  background: url('./img/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .title-small{
   font-size: 80px;
   text-align: center;
 }
 .item-dichvu{
-  border :solid 1px #707070;
+  position: relative;
+  /* border: 1px solid transparent;
+  border-radius: 30px;
+  border-image: linear-gradient(to right, #DBC192  , #CBAE80 , #B08E62 , #9C774C , #91693F , #8D653B);
+  border-image-slice: 1;
   border-radius: 10px;
+  */
+  
+          
+}
+.item-dichvu::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 10px; 
+  padding :1px; 
+  background:linear-gradient(45deg, #DBC192  , #CBAE80 , #B08E62 , #9C774C , #91693F , #8D653B); 
+  -webkit-mask: 
+     linear-gradient(#fff 0 0) content-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude; 
+}
+.section-dv{
+  padding-top: 10%;
 }
 .icon-phone{
-  top:11%;
-  left: 4%;
+  top:20%;
+  left: 5%;
 }
-.box-dichvu-phone{
+.box-dichvu-phone {
   border  : #707070 1px solid ;
   border-radius: 5px;
   background: linear-gradient(to right, #219793, #05180E);
+  
 }
 .name-tin-tuc {
   bottom: 1%;
@@ -754,8 +788,12 @@ table tr td{
 .item-khanang{
   padding: 0px 30px;
 }
+.content-tintuc h2{
+  font-size: 15px;
+}
+
 .content-tintuc p{
-  font-size: 14px;
+  font-size: 13px;
 }
 .box-content-chitiet-sp{
   position: absolute;
@@ -1014,7 +1052,77 @@ input[type="file"] {
   background-color: #089A95;
   color: #fff;
 }
+.content-info-home{
+  padding: 0 6%;
+  text-align: justify;
+}
+.btn-tim-hieu{
+  padding-top: 15%;
+}
+.name-thang-may{
+  font-weight: bold;
+  bottom: 3%;
+}
+.section-row h5{
+  font-size: 15px;
+}
+.section-row a{
+  font-size: 13px;
+}
+.title-small{
+  opacity: 0.2;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+  max-width: 1400px;
+}
+.content-doingu{
+  top: 50%;
+  transform: translateY(-50%);
+}
+.content-doingu p{
+  font-size: 12px;
+  max-width: 45%;
+}
+.text-btn-lienhe{
+  top:32%;
+  left : 28%;
+  font-size: 13px;
+}
+.btn-img-lienhe{
+  bottom: 10%;
+  cursor: pointer;
+  left: 30%;
+}
+#doitac-mobile{
+  display: none;
+}
+
 @media(max-width : 768px){
+ 
+  #doitac-mobile{
+    display: block;
+  }
+  #doitac-desktop{
+    display: none;
+  }
+  .img-mobile-doitac{
+    bottom: 20%;
+  }
+  .header{
+    padding: 10px 0px;
+  }
+  .brand img{
+    width: 200px;
+  }
+  .btn-tim-hieu{
+    padding: 20px 0;
+  }
+  .content-info-home{
+    padding: 0 4%;
+  }
+  .row-info{
+    margin: 0px ;
+  }
   .form-du-an{
 
     right: 0;

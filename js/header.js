@@ -4,7 +4,7 @@ header.innerHTML += `
 <header class="header" id="header">
 <section class="wrapper container">
    <a href="./index.html" class="brand">
-    <img src="./img/logo.png" alt="" width="150px">
+    <img src="./img/logo.png" alt="" width="280px">
    </a>
    <div class="burger" id="burger">
       <span class="burger-line"></span>
@@ -74,7 +74,7 @@ header.innerHTML += `
             </div>
             <div class="icon-internet">
                <img src='../img/internet-icon.png' width='15px'/>
-               <p>Việt Nam</p>
+               <p >Việt Nam</p>
             </div>
          </a></li>
       </ul>
