@@ -663,13 +663,16 @@ img, video {
   background: linear-gradient(to right, #2B7C76 , #358E88 , #05180E   );
 }
 .btn-special{
+  border: 1px solid #000;
+}
+.btn-special:hover{
   background: linear-gradient(to right, #2B7C76 , #358E88   );
 }
 .item-footer{
   padding: 0px 25px;
 }
 .main-btn{
-  padding: 20px 0;
+  padding-top: 30%;
 }
 .post-banquyen{
   margin-top: 20px;
@@ -723,6 +726,9 @@ img, video {
   color: #2B9D9E;
   border-bottom: 2px #2B9D9E solid;
 }
+.row{
+  margin: 0px ;
+}
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link:hover{
   color: #2B9D9E !important; 
 }
@@ -744,7 +750,7 @@ img, video {
   align-items: center;
   background: linear-gradient(to right,#2A7E78 , #34928C ,#089A95 ,#007976);
 }
-.active-tinh-nang{
+.item-tinhnang:hover{
   background: linear-gradient(to right,#2A7E78 , #34928C ,#089A95   );
 }
 .btn-bam-de-xem:hover{
@@ -757,18 +763,26 @@ img, video {
   width: 50%;
   line-height: 32px;
   padding: 20px 0;
+  text-align: center;
+}
+.content-khanang p{
+  width: 80% ;
+  text-align: justify;
 }
 .text-content-tinhnang{
   line-height: 30px;
 }
 .item-tinhnang{
   text-align: justify;
-  padding: 30px 20px;
+  cursor: pointer;
+  padding: 40px;
   border: #D4D5D7 1px solid  ;
 }
 .item-tinhnang h2{
+  text-align: center;
   line-height: 35px;
 }
+
 table{
   
   width: 80%;
@@ -849,8 +863,12 @@ swiper-slide img {
 }
 .name-mau{
   color: #007976;
+  cursor: pointer;
   text-align: center;
  
+}
+.name-mau:hover{
+  font-weight: bold;
 }
 .swiper-button-next{
       position: relative !important;
@@ -1096,9 +1114,50 @@ input[type="file"] {
 #doitac-mobile{
   display: none;
 }
-
-@media(max-width : 768px){
+.content-sp{
+  padding: 10% 7% 0% 10%;
  
+}
+
+.content-thang-may{
+  font-size: 12px;
+}
+.special-title{
+  padding:  50px 0;
+  
+}
+.bg-gray {
+  background-color: #C7C9CB;
+}
+.white{
+  height: 100px;
+}
+.height-white{
+  height: 90%;
+}
+.bg-gold-gradient{
+  background: linear-gradient(to right, #DBC192, #CBAE80,#B08E62 ,#B08E62 ,#B08E62 ,#8D653B  );
+}
+.img-white{
+  background-color: #f8f9fa;
+}
+.bg-green-gradient{
+  background: linear-gradient(to right,#2A7E78 , #34928C ,#089A95 ,#007976);
+}
+.head-top{
+  padding-top: 10%;
+}
+@media(max-width : 768px){
+  .white{
+    height: 10px;
+  }
+  .height-white{
+    height: max-content;
+   padding: 5%;
+  }
+  .main-btn{
+    padding-top: 10%;
+  }
   #doitac-mobile{
     display: block;
   }

@@ -48,7 +48,7 @@
         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
           <li class="nav-item" role="presentation">
             <button
-              class="nav-link active"
+              class="nav-link active px-0"
               id="pills-home-tab"
               data-bs-toggle="pill"
               data-bs-target="#thietke"
@@ -240,21 +240,23 @@
             role="tabpanel"
             aria-labelledby="pills-profile-tab"
           >
-            <div class="d-flex justify-content-center align-items-center">
+            <div class="d-flex py-4 justify-content-center align-items-center">
               <img src="./img/arrow-right.png" alt="" width="18px" />
               <h3 class="fs-5 text-dark ms-2">CÔNG NGHỆ TIÊU CHUẨN CHÂU ÂU</h3>
             </div>
-            <div class="content-tinhnang d-flex justify-content-center">
+            <div class="content-tinhnang  d-flex justify-content-center">
               <p>
                 Bộ sưu tập các mẫu thiết kế thang máy cao cấp của iTEK ELEVATOR
                 mang phong cách trang nhã, tinh tế, thể hiện hiện đẳng cấp của
                 gia chủ trong những không gian nội thất sang trọng, hiện đại.
               </p>
             </div>
-            <div class="row">
-              <div class="col-6 col-md-3 item-tinhnang active-tinh-nang">
+            <div class="row pb-5">
+              <div class="col-6 col-md-3 item-tinhnang ">
                 <div class="py-3 d-flex justify-content-center">
-                  <img src="./img/tinh-nang-1.png" alt="" width="100px" />
+                  <div class="img-tinhnang">
+                    <img src="./img/tinh-nang-1.png" alt="" width="100px" />
+                  </div>
                 </div>
                 <div>
                   <h2 class="py-2 fs-5">Công nghệ biến tần VVVF Drive</h2>
@@ -273,7 +275,10 @@
               </div>
               <div class="col-6 col-md-3 item-tinhnang">
                 <div class="py-3 d-flex justify-content-center">
-                  <img src="./img/tinh-nang-2.png" alt="" width="100px" />
+                  <div  class="img-tinhnang">
+                    <img src="./img/tinh-nang-2.png" alt="" width="100px" />
+                  </div>
+                  
                 </div>
                 <div>
                   <h2 class="py-2 fs-5">Công nghệ biến tần kỹ thuật số</h2>
@@ -289,7 +294,9 @@
               </div>
               <div class="col-6 col-md-3 item-tinhnang">
                 <div class="py-3 d-flex justify-content-center">
-                  <img src="./img/tinh-nang-3.png" alt="" width="100px" />
+                  <div class="img-tinhnang">
+                    <img src="./img/tinh-nang-3.png" alt="" width="100px" />
+                  </div>
                 </div>
                 <div>
                   <h2 class="py-2 fs-5">Hệ thống chiếu sáng tự động</h2>
@@ -304,7 +311,9 @@
               </div>
               <div class="col-6 col-md-3 item-tinhnang">
                 <div class="py-3 d-flex justify-content-center">
-                  <img src="./img/tinh-nang-4.png" alt="" width="100px" />
+                  <div class="img-tinhnang">
+                    <img src="./img/tinh-nang-4.png" alt="" width="100px" />
+                  </div>
                 </div>
                 <div>
                   <h2 class="py-2 fs-5">Cảm biến an toàn</h2>
@@ -388,14 +397,14 @@
             role="tabpanel"
             aria-labelledby="pills-contact-tab"
           >
-            <div class="d-flex justify-content-center align-items-center">
+            <div class="d-flex justify-content-center py-4 align-items-center">
               <img src="./img/arrow-right.png" alt="" width="18px" />
               <h3 class="fs-5 text-dark ms-2">
                 Thang Máy ITEK ELEVATOR Đón Đầu Công Nghệ
               </h3>
             </div>
-            <div class="content-tinhnang d-flex justify-content-center">
-              <p>
+            <div class="content-tinhnang content-khanang  d-flex justify-content-center">
+              <p >
                 Kết hợp các công cụ, giải pháp và những cải tiến mới nhất trong
                 công nghệ nhằm tối đa hóa hiệu suất vận hành trong suốt vòng đời
                 hoạt động của sản phẩm. Thiết kế sản phẩm thông minh, linh hoạt
@@ -405,23 +414,24 @@
               </p>
             </div>
 
-            <div class="row">
+            <div class="row pb-5">
                 <div class="col-12 col-md-6 item-khanang">
                     <img src="./img/khanang.png" alt="" width="100%">
                 </div>
                 <div class="col-12 col-md-6 item-khanang">
                     <p class="content-khangnang">
-                        Hoạch định & Thiết kế trực tuyến
+                        <strong class='fw-bold'>Hoạch định & Thiết kế trực tuyến</strong> <br>
                         Công cụ Hoạch định & Thiết kế trực tuyến sẽ hỗ trợ bạn về thông số kỹ thuật, mang đến giải pháp tối ưu cho dự án ngay ở giai đoạn 
-                        đầu của thiết kế. <br> <br>
-                        Cải tiến trong lắp đặt <br> <br>
-                        Sử dụng công nghệ tiên tiến nhất nhằm đảm bảo an toàn, hiệu suất và chất lượng. <br> <br>
-                        Vận hành thông minh - chuyển đổi kỹ thuật số <br> <br>
+                        đầu của thiết kế. <br>
+                        <strong class='fw-bold'>Cải tiến trong lắp đặt</strong> <br> 
+                        Sử dụng công nghệ tiên tiến nhất nhằm đảm bảo an toàn, hiệu suất và chất lượng. <br>
+                        <strong  class='fw-bold' > Vận hành thông minh - chuyển đổi kỹ thuật số </strong> <br>
                         Toàn bộ các sản phẩm mới đều được tích hợp hệ điều khiển thông minh - tạo ra giải pháp toàn diện trên nền tảng Internet kết nối vạn
                         vật IOT
                     </p>
                 </div>
             </div>
+            <hr>
           </div>
         </div>
       </div>
