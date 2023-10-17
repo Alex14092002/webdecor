@@ -1223,6 +1223,12 @@ swiper-slide img {
   margin: 0 auto;
   width: 70%;
 }
+.hotline{
+  position: fixed;
+  z-index: 100000;
+  right: 2%;
+  top:40%;
+}
 @media(max-width : 768px){
   .special-nav-link{
     padding-right: 0px;
