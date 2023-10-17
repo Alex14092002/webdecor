@@ -1235,7 +1235,6 @@ swiper-slide img {
 ::shadow .swiper {
   position: static !important;
 }
-
 @media(max-width : 768px){
   .special-nav-link{
     padding-right: 0px;
