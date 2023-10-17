@@ -1,12 +1,9 @@
+
 const swiperEl = document.querySelector(".mySwiper");
-
 swiperEl.initialize();
-
 Object.assign(swiperEl, {
-  
   slidesPerView: 2,
   spaceBetween: 10,
- 
   breakpoints: {
     "@0.00": {
       slidesPerView: 2,
@@ -25,7 +22,13 @@ Object.assign(swiperEl, {
       spaceBetween: 10,
     },
   },
+  navigation: {
+    nextEl: '.btn-next', // Chọn lớp hoặc ID của nút "Next"
+    prevEl: '.btn-prev' // Chọn lớp hoặc ID của nút "Prev"
+  }
 });
+
+
 
 
 const swiperEls = document.querySelector(".mySwipers");

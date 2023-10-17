@@ -136,7 +136,7 @@
               <div class="col-12 col-md-4 mb-5 px-md-5">
                 <div id="panorama"></div>
                 <div>
-                  <h5 class="text-center py-3">MẪU SẢN PHẨM YÊU CẦU</h5>
+                  <h5 class="text-center fs-4 py-3">MẪU SẢN PHẨM YÊU CẦU</h5>
                 </div>
                 <div class="d-flex px-1 justify-content-center">
                   <button id="downloadButton" class="d-flex align-items-center">
@@ -151,7 +151,7 @@
               </div>
               <div class="col-12 col-md-8 right-sp px-md-5">
                 <div>
-                  <swiper-container class="mySwiper">
+                  <swiper-container class="mySwiper" >
                     <swiper-slide>
                       <div>
                         <img
@@ -225,9 +225,7 @@
                       </div>
                     </swiper-slide>
                   </swiper-container>
-                  <div
-                    class="d-flex justify-content-center py-4 align-items-center"
-                  >
+                  <div class="d-flex justify-content-center py-4 align-items-center">
                     <button class="btn-prev">
                       <img src="./img/prev-btn.png" alt="" width="20px" />
                     </button>
@@ -316,11 +314,11 @@
                   <div
                     class="d-flex justify-content-center py-4 align-items-center"
                   >
-                    <button class="btn-prev">
+                    <button class="btn-prevs">
                       <img src="./img/prev-btn.png" alt="" width="20px" />
                     </button>
                     <strong class="px-4 fw-bold fs-4">MẪU ỐP SÀN</strong>
-                    <button class="btn-next">
+                    <button class="btn-nexts">
                       <img src="./img/next-btn.png" alt="" width="20px" />
                     </button>
                   </div>
@@ -404,11 +402,11 @@
                   <div
                     class="d-flex justify-content-center py-4 align-items-center"
                   >
-                    <button class="btn-prev">
+                    <button class="btn-prevss">
                       <img src="./img/prev-btn.png" alt="" width="20px" />
                     </button>
                     <strong class="px-4 fw-bold fs-4">MẪU ỐP CẠNH</strong>
-                    <button class="btn-next">
+                    <button class="btn-nextss">
                       <img src="./img/next-btn.png" alt="" width="20px" />
                     </button>
                   </div>
@@ -531,11 +529,11 @@
                   <div
                     class="d-flex justify-content-center py-4 align-items-center"
                   >
-                    <button class="btn-prev">
+                    <button class="btn-prevsss">
                       <img src="./img/prev-btn.png" alt="" width="20px" />
                     </button>
                     <strong class="px-4 fw-bold fs-4">BẢNG ĐIỀU KHIỂN</strong>
-                    <button class="btn-next">
+                    <button class="btn-nextsss">
                       <img src="./img/next-btn.png" alt="" width="20px" />
                     </button>
                   </div>
@@ -551,135 +549,150 @@
             <br />
 
             <div class="position-relative form-info">
-              <div class="title-form position-absolute">
-                <h2>ĐIỀN THÔNG TIN VÀ GỬI MẪU SẢN PHẨM</h2>
-              </div>
-              <div class="row main-input">
-                <div class="col-6 col-md-3 pb-3 position-relative">
-                  <input type="text" placeholder="Họ và tên" />
-                  <div class="icon-form">
-                    <img src="./img/user-form.png" alt="" width="20px" />
-                  </div>
+              <div >
+                <div class="title-form position-absolute">
+                  <h2>ĐIỀN THÔNG TIN VÀ GỬI MẪU SẢN PHẨM</h2>
                 </div>
-                <div class="col-6 col-md-3 pb-3 position-relative">
-                  <input type="text" placeholder="Địa chỉ" />
-                  <div class="icon-form">
-                    <img src="./img/home-form.png" alt="" width="20px" />
-                  </div>
-                </div>
-                <div class="col-6 col-md-3 pb-3">
-                  <input
-                    class="ps-3"
-                    type="text"
-                    placeholder="Kích thước hố thang"
-                  />
-                </div>
-                <div class="col-6 col-md-3 pb-3">
-                  <input class="ps-3" type="text" placeholder="Tải trọng" />
-                </div>
-
-                <div class="col-6 col-md-3 pb-3 position-relative">
-                  <input type="text" placeholder="Điện thoại" />
-                  <div class="icon-form">
-                    <img src="./img/phone-form.png" alt="" width="20px" />
-                  </div>
-                </div>
-                <div class="col-6 col-md-3 pb-3 position-relative">
-                  <input type="text" placeholder="Email" />
-                  <div class="icon-form">
-                    <img src="./img/mail-form.png" alt="" width="20px" />
-                  </div>
-                </div>
-                <div class="col-6 col-md-3 pb-3">
-                  <input class="ps-3" type="text" placeholder="Số tầng" />
-                </div>
-                <div class="col-6 col-md-3 pb-3">
-                  <input class="ps-3" type="text" placeholder="Tốc độ" />
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-12 col-md-6">
-                  <textarea
-                    class="text-note"
-                    placeholder="Nội dung yêu cầu"
-                    name=""
-                    id=""
-                    cols="30"
-                    rows="10"
-                  ></textarea>
-                  <div class="py-2">
-                    <label class="custom-file-upload">
-                      <div class="d-flex align-items-center">
-                        <img src="./img/upload.png" alt="" width="20px" />
-                        <span class="ms-2">Gửi mẫu sản phẩm</span>
-                      </div>
-
-                      <input type="file" />
-                    </label>
-                  </div>
-                </div>
-                <div class="col-12 col-md-6">
-                  <h2 class="text-center text-light fs-5 py-2">
-                    Cần chuyên viên hỗ trợ
-                  </h2>
-                  <div class="row">
-                    <div class="col-12 col-md-6 py-2">
-                      <div class="text-light nvht p-2 border rounded">
-                        <span>Thanh Trúc</span>
-                        <span>087 6868 333</span>
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-6 py-2">
-                      <div class="text-light nvht p-2 border rounded">
-                        <span>Thanh Trúc</span>
-                        <span>087 6868 333</span>
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-6 py-2">
-                      <div class="text-light nvht p-2 border rounded">
-                        <span>Thanh Trúc</span>
-                        <span>087 6868 333</span>
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-6 py-2">
-                      <div class="text-light nvht p-2 border rounded">
-                        <span>Thanh Trúc</span>
-                        <span>087 6868 333</span>
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-6 py-2">
-                      <div class="text-light nvht p-2 border rounded">
-                        <span>Thanh Trúc</span>
-                        <span>087 6868 333</span>
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-6 py-2">
-                      <div class="text-light nvht p-2 border rounded">
-                        <span>Thanh Trúc</span>
-                        <span>087 6868 333</span>
-                      </div>
+                <div class="row main-input">
+                  <div class="col-6 col-md-3 pb-3 position-relative">
+                    <input type="text" placeholder="Họ và tên" />
+                    <div class="icon-form">
+                      <img src="./img/user-form.png" alt="" width="20px" />
                     </div>
                   </div>
-                  <div
-                    class="d-flex py-4 align-items-center justify-content-center"
-                  >
-                    <div>
-                      <img
-                        src="./img/phone-bold-form.png"
-                        alt=""
-                        width="30px"
-                      />
-                    </div>
-                    <div class="ms-2 text-light">
-                      <h5>Hotline 087 6868 333</h5>
+                  <div class="col-6 col-md-3 pb-3 position-relative">
+                    <input type="text" placeholder="Địa chỉ" />
+                    <div class="icon-form">
+                      <img src="./img/home-form.png" alt="" width="20px" />
                     </div>
                   </div>
+                  <div class="col-6 col-md-3 pb-3">
+                    <input
+                      class="ps-3"
+                      type="text"
+                      placeholder="Kích thước hố thang"
+                    />
+                  </div>
+                  <div class="col-6 col-md-3 pb-3">
+                    <input class="ps-3" type="text" placeholder="Tải trọng" />
+                  </div>
+  
+                  <div class="col-6 col-md-3 pb-3 position-relative">
+                    <input type="text" placeholder="Điện thoại" />
+                    <div class="icon-form">
+                      <img src="./img/phone-form.png" alt="" width="20px" />
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3 pb-3 position-relative">
+                    <input type="text" placeholder="Email" />
+                    <div class="icon-form">
+                      <img src="./img/mail-form.png" alt="" width="20px" />
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3 pb-3">
+                    <input class="ps-3" type="text" placeholder="Số tầng" />
+                  </div>
+                  <div class="col-6 col-md-3 pb-3">
+                    <input class="ps-3" type="text" placeholder="Tốc độ" />
+                  </div>
                 </div>
-              </div>
-
-              <div class="d-flex justify-content-around">
-                <button class="btn-send px-5 py-3">GỬI YÊU CẦU</button>
+  
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <textarea
+                      class="text-note"
+                      placeholder="Nội dung yêu cầu"
+                      name=""
+                      id=""
+                      cols="30"
+                      rows="10"
+                    ></textarea>
+                    <div class="py-2">
+                      <label class="custom-file-upload">
+                        <div class="d-flex align-items-center">
+                          <img src="./img/upload.png" alt="" width="20px" />
+                          <span class="ms-2">Gửi mẫu sản phẩm</span>
+                        </div>
+  
+                        <input type="file" />
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <h2 class="text-center text-light fs-5 py-2">
+                      Cần chuyên viên hỗ trợ
+                    </h2>
+                    <div class="row">
+                      <div class="col-12 col-md-6 py-2">
+                        <div class="text-light nvht p-2 border rounded">
+                          <span>Thanh Trúc</span>
+                          <span>087 6868 333</span>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 py-2">
+                        <div class="text-light nvht p-2 border rounded">
+                          <span>Thanh Trúc</span>
+                          <span>087 6868 333</span>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 py-2">
+                        <div class="text-light nvht p-2 border rounded">
+                          <span>Thanh Trúc</span>
+                          <span>087 6868 333</span>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 py-2">
+                        <div class="text-light nvht p-2 border rounded">
+                          <span>Thanh Trúc</span>
+                          <span>087 6868 333</span>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 py-2">
+                        <div class="text-light nvht p-2 border rounded">
+                          <span>Thanh Trúc</span>
+                          <span>087 6868 333</span>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 py-2">
+                        <div class="text-light nvht p-2 border rounded">
+                          <span>Thanh Trúc</span>
+                          <span>087 6868 333</span>
+                        </div>
+                      </div>
+                    </div>
+                  
+                  </div>
+                </div>
+  
+                <div class="d-flex justify-content-center">
+                  <button class="btn-send px-5 py-3">GỬI YÊU CẦU</button>
+                </div>
+  
+                <div class="row">
+                  <div class="col-8">
+  
+                  </div>
+                  <div class="col-12 col-md-4 position-absolute btn-phone-green">
+                    <div class="d-flex justify-content-between align-items-center">
+                    
+                     
+                      <div class="d-flex py-4 align-items-center justify-content-center">
+                      <div>
+                        <img
+                          src="./img/phone-greed.png"
+                          alt=""
+                          width="30px"
+                        />
+                      </div>
+                      <div class="ms-2 text-light">
+                        <h5>Hotline 087 6868 333</h5>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                 
+                </div>
+              
               </div>
             </div>
           </div>
@@ -691,7 +704,7 @@
             aria-labelledby="pills-profile-tab"
           >
             <div class="text-center">
-              <h2 class="fs-5">BẢO TRÌ SỬA CHỮA</h2>
+              <h2 class="fs-5 fw-bold py-4">BẢO TRÌ SỬA CHỮA</h2>
             </div>
             <div class="content-bao-tri py-2">
               
@@ -716,9 +729,9 @@
 
             <br> <br> <br> <br>
             <div class="text-center">
-              <h2 class="fs-5">TỐI ƯU HÓA VÒNG ĐỜI SẢN PHẨM</h2>
+              <h2 class="fs-5  fw-bold py-4">TỐI ƯU HÓA VÒNG ĐỜI SẢN PHẨM</h2>
             </div>
-            <div class="content-bao-tri py-2">
+            <div class="content-bao-tri ">
               
                 <p>
                   Tại iTEK ELEVATOR, chúng tôi tự hào là một trong những đơn vị
@@ -738,12 +751,12 @@
                 </p>
               
             </div>
-            <div class="img-bao-duong py-5">
+            <div class="img-bao-duong py-1">
               <div class="row item-bao-duong py-5">
-                <div class="col-12 col-md-6 p-0">
+                <div class="col-12 col-md-6 ">
                   <img src="./img/bao-duong.png" alt="" width="100%">
                 </div>
-                <div class="col-12 col-md-6 p-0">
+                <div class="col-12 col-md-6 ">
                   <img src="./img/bao-duong.png" alt="" width="100%">
                 </div>
               </div>
@@ -977,10 +990,12 @@
     </section>
 
     <div id="doitac"></div>
-
+    <div class='congtac'>
+    
+    </div>
     <div class="footer py-5"></div>
-
-    <script src="./js/swiper.js"></script>
+<script src="./js/congtac.js"></script>
+    <script  src="./js/swiper.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -989,6 +1004,7 @@
     <script src="./js/header.js"></script>
     <script src="./js/footer.js"></script>
     <script src="./js/doitac.js"></script>
+
     <script>
       // Create viewer
       viewer = pannellum.viewer("panorama", {

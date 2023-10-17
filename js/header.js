@@ -16,13 +16,13 @@ header.innerHTML += `
       <ul class="menu" id="menu">
          <li class="menu-item"><a href="../gioithieu.html" class="menu-link">Giới thiệu</a></li>
          <li class="menu-item menu-dropdown">
-            <span class="menu-link" data-toggle="submenu">Sản phẩm<i class="bx bx-chevron-down"></i></span>
+            <a href='../sanpham.html' class="menu-link" data-toggle="submenu">Sản phẩm<i class="bx bx-chevron-down"></i></a>
             <ul class="submenu">
             <li class="submenu-item menu-dropdown-2">
-                  <a class="submenu-link" >Thang máy chở khách <i class='bx bx-chevron-right'></i></a>
+                  <a href='../sanpham.html' class="submenu-link" >Thang máy chở khách <i class='bx bx-chevron-right'></i></a>
                   <ul class="submenu-2">
                   <li class="submenu-item-2 menu-dropdown-3">  
-   <a href="../sanpham.html" class="submenu-link-3">Thang máy chở khách tiêu chuẩn <i class='bx bx-chevron-right'></i></a>
+   <a href="" class="submenu-link-3">Thang máy chở khách tiêu chuẩn <i class='bx bx-chevron-right'></i></a>
    <ul class="submenu-3">
       <li class="submenu-item-3"><a href="../chitietsp.html" class="submenu-link-3">Thiết kế Buồng Thang</a></li>
       <li class="submenu-item-3"><a href="#" class="submenu-link-3">Tính năng</a></li>
