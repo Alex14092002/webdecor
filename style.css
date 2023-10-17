@@ -1229,6 +1229,13 @@ swiper-slide img {
   right: 2%;
   top:40%;
 }
+:host {
+  position: static !important;
+}
+::shadow .swiper {
+  position: static !important;
+}
+
 @media(max-width : 768px){
   .special-nav-link{
     padding-right: 0px;
