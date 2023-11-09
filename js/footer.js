@@ -2,11 +2,11 @@ const footer = document.querySelector('.footer')
 footer.innerHTML += `
 <div class="container">
 <div class="row align-items-center">
-  <div class="col-12 col-md-2 pb-2 item-footer logo-footer">
+  <div class="col-12 col-md-3 pb-2 item-footer logo-footer">
       <img src="./img/logo-footer.png" alt="" width="100%">
   </div>
-  <div class="col-12 col-md-5 pb-2 item-footer">
-    <h5 class="fs-5">VĂN PHÒNG BÁN HÀNG</h5>
+  <div class="col-12 col-md-4 pb-2 item-footer">
+    <h5 class="fs-5 fw-bold">VĂN PHÒNG BÁN HÀNG</h5>
     <ul class="py-4 text-light ">
       <li class="d-flex pb-2 align-items-center" >
         <div><img src="./img/icon-map-foot.png" alt="" width="15px"></div>
@@ -23,7 +23,7 @@ footer.innerHTML += `
       
      
     </ul>
-    <h5 class="fs-5">HỆ THỐNG PHÂN PHỐI</h5>
+    <h5 class="fs-5 fw-bold">HỆ THỐNG PHÂN PHỐI</h5>
     <ul class="py-4 text-light ">
       <li class="d-flex pb-2 align-items-center" >
         <div><img src="./img/icon-map-foot.png" alt="" width="15px"></div>
@@ -47,14 +47,14 @@ footer.innerHTML += `
     </ul>
   </div>
   <div class="col-12 col-md-5 pb-2 item-footer">
-    <h5 class="fs-5">NHÀ MÁY</h5>
+    <h5 class="fs-5 fw-bold">NHÀ MÁY</h5>
     <ul class="py-4 text-light ">
       <li class="d-flex pb-2 align-items-center" >
         <div><img src="./img/icon-setting-foot.png" alt="" width="30px"></div>
         <span class="ms-2">Lô 18, KCN Quang Minh, Thị trấn Quang Minh, Mê Linh, Hà Nội</span>
       </li>
     </ul>
-    <h5 class="fs-5">TRỤ SỞ CHÍNH</h5>
+    <h5 class="fs-5 fw-bold">TRỤ SỞ CHÍNH</h5>
     <ul class="py-4 text-light ">
       <li class="d-flex pb-2 align-items-center" >
         <div><img src="./img/icon-setting-foot.png" alt="" width="30px"></div>

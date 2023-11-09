@@ -180,6 +180,7 @@ img, video {
 .menu-link:hover {
   outline: none;
   color: #2B9D9E;
+  font-weight: bold;
 }
 @media only screen and (min-width: 993px) {
   .menu-dropdown:hover > .submenu {
@@ -231,6 +232,7 @@ img, video {
   margin-top: 0.75rem;
 }
 .submenu-link {
+
   font-family: inherit;
   font-size: 1rem;
   font-weight: 500;
@@ -242,6 +244,7 @@ img, video {
 .submenu-link:hover {
   outline: none;
   color: #2B9D9E;
+  font-weight: bold;
 }
 .psv-button.psv-button--hover-scale.psv-download-button {
   position: absolute; /* Đặt phần tử ở chế độ tuyệt đối */
@@ -398,6 +401,7 @@ img, video {
 }
 .submenu-2 li a:hover{
   color:  #2B9D9E ;
+  font-weight: bold;
 }
 /* Hiển thị submenu cấp 2 khi hover vào menu-dropdown-2 */
 .menu-dropdown-2:hover .submenu-2 {
@@ -446,6 +450,10 @@ img, video {
   padding-right: 15px;
   border-right :#000 solid 1px;
 }
+
+
+
+
 .banner-home{
   position: relative;
 }
@@ -477,6 +485,7 @@ img, video {
 
 }
 .title-home h2{
+  font-weight: bold;
   font-size: 35px;
   color: #fff;
  text-shadow: 1px 5px 2px rgba(0, 0, 0, 0.5);
@@ -486,8 +495,13 @@ img, video {
   color: #fff;
   text-shadow: 1px 5px 2px rgba(0, 0, 0, 0.5);
 }
-
-
+.detail-adress{
+  font-size: 12px;
+  font-weight: 300;
+}
+.name-adress{
+  font-size: 17px;
+}
 .banner-home{
   margin-top: 3%;
 }
@@ -1256,7 +1270,15 @@ swiper-slide img {
 .content-itek{
   font-size: 14px;
 }
-
+.tintuc{
+  padding: 100px 0;
+}
+.item-footer{
+  font-size: 14px;
+}
+.content-gioithieu{
+  text-align: justify !important;
+}
 @media(max-width : 1650px){
   .title-small{
     font-size: 60px;
@@ -1274,9 +1296,9 @@ swiper-slide img {
   }
 }
 @media(max-width : 768px){
-  .special-nav-link{
-    padding-right: 0px;
-  }
+.header{
+  display: none;
+}
   .btn-phone-green{
     display: flex;
     justify-content: center;
@@ -1440,3 +1462,5 @@ swiper-slide img {
     padding-top: 1%;
   }
 }
+
+

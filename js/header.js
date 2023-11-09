@@ -1,7 +1,7 @@
 const header = document.querySelector(".header");
 
 header.innerHTML += `
-<header class="header" id="header">
+<header id="header-desktop">
 <section class="wrapper container">
    <a href="./index.html" class="brand">
     <img src="./img/logo.png" alt="" width="280px">
@@ -16,10 +16,11 @@ header.innerHTML += `
       <ul class="menu" id="menu">
          <li class="menu-item"><a href="../gioithieu.html" class="menu-link">Giới thiệu</a></li>
          <li class="menu-item menu-dropdown">
-            <a href='../sanpham.html' class="menu-link" data-toggle="submenu">Sản phẩm<i class="bx bx-chevron-down"></i></a>
+            <a href='#' class="menu-link" data-toggle="submenu">Sản phẩm<i class="bx bx-chevron-down"></i></a>
             <ul class="submenu">
             <li class="submenu-item menu-dropdown-2">
-                  <a href='../sanpham.html' class="submenu-link" >Thang máy chở khách </a>
+                  <a href='../sanpham.html' class="submenu-link d-flex justify-content-between" >
+                Thang máy chở khách </a>
                   <ul class="submenu-2">
                   <li class="submenu-item-2 menu-dropdown-3">  
    <a href="" class="submenu-link-3">Thang máy chở khách tiêu chuẩn </a>
@@ -137,28 +138,34 @@ const collapseSubMenu = () => {
   navbarMenu.querySelector(".menu-dropdown.active").classList.remove("active");
 };
 
-// Toggle Mobile Submenu Function
 const toggleSubMenu = (e) => {
-  if (e.target.hasAttribute("data-toggle") && window.innerWidth <= 992) {
-    e.preventDefault();
-    const menuDropdown = e.target.parentElement;
-
-    // If Dropdown is Expanded, then Collapse It
-    if (menuDropdown.classList.contains("active")) {
-      collapseSubMenu();
-    } else {
-      // Collapse Existing Expanded Dropdown
-      if (navbarMenu.querySelector(".menu-dropdown.active")) {
-        collapseSubMenu();
-      }
-
-      // Expanded the New Dropdown
-      menuDropdown.classList.add("active");
-      const subMenu = menuDropdown.querySelector(".submenu");
-      subMenu.style.maxHeight = subMenu.scrollHeight + "px";
-    }
-  }
-};
+   if (e.target.hasAttribute("data-toggle") && window.innerWidth <= 992) {
+     e.preventDefault();
+ 
+     // Check for nested submenus
+     let menuItem = e.target.parentElement;
+     while (menuItem.classList.contains("menu-dropdown-2") || menuItem.classList.contains("menu-dropdown-3")) {
+       menuItem = menuItem.parentElement;
+     }
+ 
+     const menuDropdown = menuItem;
+ 
+     // If Dropdown is Expanded, then Collapse It
+     if (menuDropdown.classList.contains("active")) {
+       collapseSubMenu();
+     } else {
+       // Collapse Existing Expanded Dropdown
+       if (navbarMenu.querySelector(".menu-dropdown.active")) {
+         collapseSubMenu();
+       }
+ 
+       // Expanded the New Dropdown
+       menuDropdown.classList.add("active");
+       const subMenu = menuDropdown.querySelector(".submenu");
+       subMenu.style.maxHeight = subMenu.scrollHeight + "px";
+     }
+   }
+ };
 
  
 
